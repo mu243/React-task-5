@@ -9,6 +9,10 @@ export const initialTasks = [
 ];
 
 export const initialColumns = {
+  unplanned: {
+    name: "Unplanned",
+    tasks: initialTasks,
+  },
   today: {
     name: "Today",
     tasks: [],
@@ -25,8 +29,5 @@ export const initialColumns = {
     name: "Next Week",
     tasks: [],
   },
-  unplanned: {
-    name: "Unplanned",
-    tasks: initialTasks,
-  },
+  
 };
